@@ -14,7 +14,6 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 let jdNotify = false; //是否开启静默运行，默认false关闭(即:奖品兑换成功后会发出通知提示)
 let Today = new Date();
 let strDisable20 = "false";
-
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '';
 if ($.isNode()) {
