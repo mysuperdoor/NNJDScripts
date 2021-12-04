@@ -27,7 +27,7 @@ cron "1 7-21/2 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/syn
 */
 const $ = new Env('种豆得豆互助版');
 //Node.js用户请在jdCookie.js处填写京东ck;
-//ios等软件用户直接用NobyDa的jd cookie
+//ios等软件用户直接用NobyDa的jdcookie
 let jdNotify = true;//是否开启静默运行。默认true开启
 let cookiesArr = [], cookie = '', jdPlantBeanShareArr = [], isBox = false, notify, newShareCodes, option, message, subTitle;
 //京东接口地址
