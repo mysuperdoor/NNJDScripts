@@ -1,5 +1,5 @@
 /*
-cron "0 0 * * *" jd_CheckCkSeq.js, tag:CK顺序调试工具by-ccwav
+cron "0 0 * * *" jd_CheckCkSeq.js, tag:CK顺序调试工具by-ccwavv
  */
 const $ = new Env("CK顺序调试工具");
 const {
