@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+# beizhu
 """
 cron: 20 10 */7 * *
 new Env('禁用重复任务');
@@ -21,7 +22,7 @@ logger.addHandler(logging.StreamHandler())  # 添加控制台日志
 
 
 ip = "localhost"
-sub_str = os.getenv("RES_SUB", "KingRan_JD-Scripts")
+sub_str = os.getenv("RES_SUB", "mysuperdoor_NNJDScripts")
 sub_list = sub_str.split("&")
 res_only = os.getenv("RES_ONLY", True)
 headers = {
