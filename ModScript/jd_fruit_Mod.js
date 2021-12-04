@@ -270,7 +270,7 @@ async function predictionFruit() {
   } else if ($.farmInfo.toFruitTimes > ($.farmInfo.farmUserPro.treeEnergy / 10)) {
     message += `【结果进度】再浇水${$.farmInfo.toFruitTimes - $.farmInfo.farmUserPro.treeEnergy / 10}次结果\n`
   }
-  // 预测n天后水果课可兑换功能
+  //预测n天后水果课可兑换功能
   let waterTotalT = ($.farmInfo.farmUserPro.treeTotalEnergy - $.farmInfo.farmUserPro.treeEnergy - $.farmInfo.farmUserPro.totalEnergy) / 10;//一共还需浇多少次水
 
   let waterD = Math.ceil(waterTotalT / waterEveryDayT);
