@@ -41,6 +41,7 @@ const USER_AGENTS = [
  * @param {number} min 最小值（包含）
  * @param {number} max 最大值（不包含）
  */
+
 function randomNumber(min = 0, max = 100) {
   return Math.min(Math.floor(min + Math.random() * (max - min)), max);
 }
