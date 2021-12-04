@@ -3,6 +3,9 @@
 更新时间：2021-9-10
 备注：京喜购物返红包助力，多个请看下方变量填写
 
+cron "44 0-23/6 * * *" jx_cashback.js
+new Env('京喜购物返红包助力');
+
 ## exprot jd_jx_cashback=10  #如需增加被助力账号,在这边修改人数
 44 0-23/6 * * * jd_jx_cashback.js, tag=京喜购物返红包助力, enabled=true
 */
