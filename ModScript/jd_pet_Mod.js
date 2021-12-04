@@ -96,7 +96,7 @@ console.log(`共${cookiesArr.length}个京东账号\n`);
 				await GetShareCode();
 			}
 		}
-		console.log('\n互助码收集完毕，开始执行日常任务...\n');
+		console.log('\n互助码收集完毕了，开始执行日常任务...\n');
 	}
 	
     for (let i = 0; i < cookiesArr.length; i++) {
