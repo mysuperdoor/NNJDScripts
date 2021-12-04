@@ -131,7 +131,6 @@ module.exports.getEnvById = async (eid) => {
   }  
   return "";
 };
-
 module.exports.delEnv = async (eid) => {
   const token = await getToken();
   const body = await api({
