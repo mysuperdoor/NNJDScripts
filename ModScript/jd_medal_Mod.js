@@ -1,7 +1,7 @@
 /**
 农场集勋章
 cron 16 7,16 * * * jd_medal.js
-TG频道：https://t.me/sheeplost
+TG频道：https://t.me/sheeplost 
  */
 const $ = new Env('农场集勋章');
 const notify = $.isNode() ? require('./sendNotify') : '';
