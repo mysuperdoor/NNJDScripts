@@ -7,22 +7,22 @@ Base:ccwav
 
 	不包含sendNotify:
 
-	ql repo https://github.com/ccwav/QLScript2.git "jd_" "NoUsed" "ql|utils"
+	ql repo https://github.com/mysuperdoor/NNJDScripts.git "jd_" "NoUsed" "ql|utils"
 
 	包含sendNotify:
 
-	ql repo https://github.com/ccwav/QLScript2.git "jd_" "NoUsed" "ql|sendNotify|utils"
+	ql repo https://github.com/mysuperdoor/NNJDScripts.git "jd_" "NoUsed" "ql|sendNotify|utils"
 
 
 2.10.3之后版本青龙拉库命令:
 
 	不包含sendNotify:
 
-	ql repo https://github.com/ccwav/QLScript2.git "jd_" "NoUsed" "ql|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS"
+	ql repo https://github.com/mysuperdoor/NNJDScripts.git "jd_" "NoUsed" "ql|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS"
 
 	包含sendNotify:
 
-	ql repo https://github.com/ccwav/QLScript2.git "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS"
+	ql repo https://github.com/mysuperdoor/NNJDScripts.git "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS"
 	
 频道:
 
